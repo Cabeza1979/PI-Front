@@ -1,0 +1,175 @@
+.container{
+width: 100%;
+    
+}
+
+.formulario {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+    background-color: rgba(222, 238, 196, 0.7);
+    border-radius: 10px;
+    width: 600px;
+    position:relative;
+}
+.input{
+width: 150px;
+height: 30px;
+font-size: medium;
+font-family: Arial, sans-serif;
+}
+
+.inputText{
+    width: 200px;
+    height: 20px;
+    font-family: Arial, sans-serif;
+    background: rgb(238, 245, 237);
+    border: 1px solid #393939;
+    border-radius: 5px 5px 5px 5px;
+    color: #030303;
+    font-size: 20px;
+    font-style: italic, bold;
+    padding: 5px;
+    }
+
+form input[type="text"]
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+.boton {
+    background-color: #1f3f09;
+
+    background-image: linear-gradient(to bottom,  #89d45e, #25490d);
+
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 6px 5px 24px #666666;
+    color: #fafafa;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+
+    border: 0;
+    width: 100px;
+    height: 30px;
+    line-height: 5px;
+    transition-duration: 300ms;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.boton:hover {
+    background-color: #ccd48b;
+    box-shadow: 0px 0px 6px 0px #ECF1C8;
+    border-radius: 10px;
+    color:  #141413;
+    border: 0;
+    width: 100px;
+    cursor: pointer;
+    transition-duration: 300ms;
+
+    background:  #90a383;
+
+  text-decoration: none;
+}
+label {
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+span {
+    color: red;
+}
+
+.inputDuracion{
+    width: 100px;
+    height: 16px;
+    font-family: Arial, sans-serif;
+    background:rgb(238, 245, 237);
+    border: 1px solid #393939;
+    border-radius: 5px 5px 5px 5px;
+    color: #393939;
+    font-size: 16px;
+    font-style: italic bold;
+    padding: 5px;
+}
+
+.formulario p{
+    display: inline-block;
+}
+.formulario h2{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.lista {
+    width: 200px;
+    height: 30px;
+    font-family: Arial, sans-serif;
+    background: rgb(238, 245, 237);
+    border: 1px solid #393939;
+    border-radius: 5px 5px 5px 5px;
+    color: #393939;
+    font-size: 16px;
+    font-style: italic bold;
+    padding: 5px;
+}
+
+.listado {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 100%;
+   
+}
+
+ul
+{
+    list-style-type: none;
+
+}
+ul li{
+    display:inline-flex;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+@media screen and (max-width: 768px) {
+    .lista {
+        height: 50px;
+    }
+    .listado {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .formulario {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+        
+        background-color: rgba(222, 238, 196, 0.7);
+        border-radius: 10px;
+        width: auto;
+        position:relative;
+    }
+}
